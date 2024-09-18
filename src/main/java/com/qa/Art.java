@@ -29,6 +29,7 @@ public class Art {
     public void setTitle(String title) {
         this.title = title;
     }
+
     private String countryMade;
     private String painting;
     public String getCountryMade() {
