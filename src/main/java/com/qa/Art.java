@@ -1,11 +1,16 @@
 package com.qa;
 
+// constructors at the top
 
 // Superclass: Art
-public class Art {
+public abstract class Art {
     public String getCreator() {
         return creator;
     }
+
+
+    public abstract void displayInfo ();
+
 
     public void setCreator(String creator) {
         this.creator = creator;

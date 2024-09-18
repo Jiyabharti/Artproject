@@ -27,9 +27,9 @@ public class Book extends Art {
     }
 
 
-   int pages;
-   String genre;
-   String author;
+   private int pages;
+   private String genre;
+   private String author;
 
 
 
@@ -42,9 +42,16 @@ public class Book extends Art {
         this.author = author;
     }
 
+
+    @Override
+public void displayInfo() {
+        System.out.println("Book:" + getTitle() +  "by"  + author);
+    }
+
+
     @Override
     public String toString(){
-        return this.
+return "JB";
     }
 }
 

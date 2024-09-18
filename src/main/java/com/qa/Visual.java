@@ -23,6 +23,11 @@ public class Visual extends Art {
     String format;
 
 
+    @Override
+    public void displayInfo() {
+
+    }
+
     public Visual(String creator, String title, String dateMade, String countryMade) {
         super(creator, title, dateMade, countryMade);
     }
